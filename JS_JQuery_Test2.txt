@@ -1,0 +1,124 @@
+Question-1
+
+Solution - function OutputTheString(GivenString){
+		var GivenStringInLowerCase = GivenString.toLowerCase();
+	        switch(GivenStringInLowerCase) {
+			case "jabroni":
+				output = "Patron Tequila";
+				break;
+			case "school counselor":
+				output = "Anything with Alcohol";
+				break;
+			case "programmer":
+				output = "Hipster Craft Beer";
+				break;
+			case "bike gang member":
+				output = "Moonshine";
+				break;
+			case "politician":
+				output = "Your tax dollars";
+				break;
+			case "rapper":
+				output = "Cristal";
+				break;
+			default:
+				output = "Beer";
+			
+			}  
+			return output;   
+		}
+
+Question-2
+
+Solution - function ReturnEvenCharacters(str) {
+		if(str.length < 2 || str.length > 100) {
+			return "Invalid String";
+		}
+		else {
+			arr = str.split();
+			result = arr.filter((x,y) => y%2);
+			return res;		
+		}
+	  }
+
+Question- 5
+
+Solution- function reversestring(str) {
+		arr = str.split('');
+		reversedarr = arr.reverse();
+		result = reversedarr.join();
+		
+		return result;
+		}
+
+Question- 7
+
+Solution- function reversethewords(str) {
+		arr = str.split(' ');
+		reversedarr = arr.reverse();
+		result = reversedarr.join();
+		
+		return result;
+		}
+Question - 8
+
+Solution - function Numberofvowels(str) {
+		arr = str.split();
+		var count = 0;
+		for(i=0;i<=str.length;i++){
+			if(arr[i] == 'a' || arr[i] == 'e' ||arr[i] == 'i' ||arr[i] == 'o' ||arr[i] == 'u') {
+				count += 1;
+			}}
+		return count;
+		}
+
+Question -9
+
+Solution - function Banjo(inputname) {
+		arr = name.split('');
+		if(arr[0] == 'R' || arr[0] == 'r') {
+			result = inputname + "plays banjo";
+		else{
+			result = inputname + "does not play banjo";
+		}
+		}
+		
+}
+
+Question - 10 
+
+Solution - function tripleX(str) {
+		indexofx = str.indexOf("x");
+		if(str[indexofx + 1]=="x" && str[indexofx+2]=="x"){
+			return true;
+		else{
+			return false;
+		}
+		}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
