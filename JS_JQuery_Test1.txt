@@ -1,0 +1,168 @@
+Question- 1
+Solution - function Sumofarrays(arr_1,arr_2) {
+		var arr1sum = 0;
+		var arr2sum = 0;
+		for(i=0;i<=arr1sum.length - 1;i++) {
+			arr1sum += arr_1[i];		
+		}
+		for(i=0;i<=arr2sum.length - 1;i++) {
+			arr2sum += arr_2[i];
+			}	
+		result = arr1sum + arr2sum;
+		return result;
+	}
+
+Question- 2
+
+Solution - function printevennumbers(n) {
+		var resultarr = []
+		for(i=1;i <= n;i++){
+			if(i%2==0){
+				resultarr.push(i);
+			}
+			else{
+				break;
+			}
+		}
+		return resultarray;
+	    }
+Question - 3
+Solution -  function Printreversearray(arr) {
+	    var resultarr = []
+		for(i=arr.length-1; i>=0; i--) {
+			resultarray.push(arr[i]);
+		}
+		return resultarray;
+		}
+Question - 4 
+Solution - function sumofeachpair(arr_1,arr_2) {
+		var resultarr = [];
+		var sum = 0
+		for(i=0;i<=arr_1.length-1;i++){
+			sum = arr_1[i] + arr_2[i];
+			resultarr.push(sum);
+			}
+	    return resultarr;
+	}
+
+Question - 5
+Solution - function SecondLetterCapital(str) {
+		for(i=1;i<=str.length;i++){
+			if(i%2==0){
+				var result = str.replace(str[i],str[i].toUpperCase());
+			}
+			return result;
+
+Question - 6 
+Solution - function ContainsYorNot (str) {
+		var check = str.includes("y");
+		if(check == true){
+			return "yes"; }
+		else{
+			return "no";
+		}
+				
+	}
+
+Question - 7
+Solution - function factorial(n) {
+		if(n==0 || n==1){
+			return 1; }
+		else{	
+			let facto = 1;
+			for(i=1;i<=n;i++){
+				facto *= i; 
+			return facto;
+		}
+
+		}
+
+Question - 8 
+Solution - function pin(n){
+		for(i=0;i<=3;i++){
+			var Enterpin = prompt("Please make your choice");
+			if(Enterpin == pin){
+				result = "That was Correct";
+			}
+			else{
+				result = "Sorry that was wrong";
+			return result;
+			}
+		}
+
+
+Question - 9
+Solution - function palindrome(str1,str2){
+		rev1 = str1.split("").reverse().join();
+		rev2 = str2.split("").reverse().join();
+		if(str1 == rev1){
+			return "Yes"; }
+		else if(str1 != rev1){
+			return "No";
+		}
+		if(str2 == rev2){
+			return "Yes"; }
+		else if(str2 != rev2){
+			return "No";
+		}
+
+		
+		}
+
+Question - 10 
+Solution - function sumofeverynumber(n) {
+		var sum = 0;
+		for(i=1;i<=n;i++){
+			sum += i;
+		}
+		return sum;		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
